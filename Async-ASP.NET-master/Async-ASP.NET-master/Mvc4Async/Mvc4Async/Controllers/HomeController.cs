@@ -9,6 +9,7 @@ using Mvc4Async.Service;
 
 namespace Mvc4Async.Controllers
 {
+    // This project roles as the web application which calls the API of WebAPIpgw 
     [UseStopwatch]
     [OutputCache(Location = OutputCacheLocation.None, NoStore = true)]
     public class HomeController : Controller

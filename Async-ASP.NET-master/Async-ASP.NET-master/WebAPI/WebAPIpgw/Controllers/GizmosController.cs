@@ -11,6 +11,7 @@ namespace WebAPIpgw.Controllers
     {
         public async Task<IEnumerable<Gizmo>> GetAllGizmos( CancellationToken cancelToken )
         {
+            // this project role as the service 
             // "Simulate" this operation took a long time, but was able to run without
             // blocking the calling thread (i.e., it's doing I/O operations which are async)
             // We use Task.Delay rather than Thread.Sleep, because Task.Delay returns
