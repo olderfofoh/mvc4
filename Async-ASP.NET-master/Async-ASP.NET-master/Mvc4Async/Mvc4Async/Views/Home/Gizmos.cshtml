@@ -6,6 +6,21 @@
 
 <h2>@ViewBag.Title  @ViewBag.SyncOrAsync</h2>
 
+
+<script>
+    
+    function inventory(dealerID) {
+        $.ajax({
+            url: '@Url.Action("HomeController","test")',
+            data: { dealerID: dealerID },
+            type: 'POST',
+            success: function (data) {
+                process(data);
+            }
+        });
+    }
+</script>
+
 <table>
     <tr>
         <th>
@@ -34,5 +49,7 @@
 
     </tr>
 }
+
+
 
 </table>

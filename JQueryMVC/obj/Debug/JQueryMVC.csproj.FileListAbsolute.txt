@@ -1,0 +1,4 @@
+C:\Users\yuanmao\Documents\GitHub\mvc and jquery\JQueryMVC\JQueryMVC\bin\JQueryMVC.dll
+C:\Users\yuanmao\Documents\GitHub\mvc and jquery\JQueryMVC\JQueryMVC\bin\JQueryMVC.pdb
+C:\Users\yuanmao\Documents\GitHub\mvc and jquery\JQueryMVC\JQueryMVC\obj\Debug\JQueryMVC.dll
+C:\Users\yuanmao\Documents\GitHub\mvc and jquery\JQueryMVC\JQueryMVC\obj\Debug\JQueryMVC.pdb
